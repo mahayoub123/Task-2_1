@@ -1,0 +1,84 @@
+
+main{
+    width: 63%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.imgBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & i{
+        color: blue;
+        margin-bottom: 6px;
+    }
+& img{
+    border-radius: 50%;
+max-width: 100%;
+width: 109px;
+height: 109px;
+}
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+                      
+    
+.verticalItem{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.mainTitle{
+    font-size: 18px;
+    margin: 4px;
+    color: #494141;
+}
+.InfoBox{
+ 
+ 
+        display: flex;
+        background-color: #2629da;
+        width: 131px;
+        height: 59px;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        padding: 6px;
+        margin: 4px;
+
+    & p{
+        color: #fff;
+    }
+    & span{
+        color: #19246c; 
+    }
+}
+.sectionParts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+strong{
+    margin-bottom: 15px;
+}
+.sectionContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 14px 0;
+}
+.iconColour{
+    color: black;
+}
